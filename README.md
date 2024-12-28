@@ -27,6 +27,14 @@ Welcome to **Knarlix Universe**, your go-to place for [insert purpose or descrip
 - Font Awesome (for icons)
 - Google reCAPTCHA
 
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/knarlix/Universe.git
+
 ## Contact
 
 - Email: [KnarliX@outlook.com](mailto:KnarliX@outlook.com)
@@ -35,12 +43,3 @@ Welcome to **Knarlix Universe**, your go-to place for [insert purpose or descrip
 #### Socials:
 - YouTube: [YouTube Channel](https://youtube.com/channel/UCn0U0vU1QfNUky7Dz7E_SMg)
 - Instagram: [Insta Account](https://www.instagram.com/knarlix)
-
-
-## Installation
-
-To run this project locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/knarlix/Universe.git
