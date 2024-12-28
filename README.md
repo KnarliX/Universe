@@ -1,1 +1,36 @@
-# Universe
+# Knarlix Universe
+
+Welcome to **Knarlix Universe**, your go-to place for [insert purpose or description of your project here]. This project is hosted on GitHub Pages and can be accessed at [https://knarlix.github.io/Universe/](https://knarlix.github.io/Universe/).
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Contact](#contact)
+
+## Features
+
+- Interactive contact form with reCAPTCHA for spam protection.
+- Links to social media platforms.
+- Modal pop-ups for additional information.
+- Dynamic year display in the footer.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Font Awesome (for icons)
+- Google reCAPTCHA
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/knarlix/Universe.git
