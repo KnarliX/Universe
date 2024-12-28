@@ -29,11 +29,10 @@ Welcome to **Knarlix Universe**, your go-to place for [insert purpose or descrip
 
 ## Contact
 
-Email: [KnarliX@outlook.com](mailto:KnarliX@outlook.com)
+- Email: [KnarliX@outlook.com](mailto:KnarliX@outlook.com)
+- Discord ID: [KnarliX](https://discord.com/users/1212719184870383621)
 
-Discord ID: [KnarliX](https://discord.com/users/1212719184870383621)
-
-### Socials:
+#### Socials:
 - YouTube: [YouTube Channel](https://youtube.com/channel/UCn0U0vU1QfNUky7Dz7E_SMg)
 - Instagram: [Insta Account](https://www.instagram.com/knarlix)
 
