@@ -1,6 +1,6 @@
 # Knarlix Universe
 
-Welcome to **Knarlix Universe**, your go-to place for [insert purpose or description of your project here]. This project is hosted on GitHub Pages and can be accessed at [https://knarlix.github.io/Universe/](https://knarlix.github.io/Universe/).
+Welcome to **Knarlix Universe**, your go-to place for innovative, secure, and community-driven open-source solutions. This project is hosted on GitHub Pages and can be accessed at [https://knarlix.github.io/Universe/](https://knarlix.github.io/Universe/).
 
 ## Table of Contents
 
