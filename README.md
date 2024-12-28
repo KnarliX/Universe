@@ -7,9 +7,7 @@ Welcome to **Knarlix Universe**, your go-to place for [insert purpose or descrip
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
+- [License](https://knarlix.github.io/universe/license)
 - [Contact](#contact)
 
 ## Features
