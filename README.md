@@ -4,7 +4,7 @@ Welcome to **Knarlix Universe** – the central hub for all our social media lin
 
 You can find all our social media profiles and contact details below.
 
-This project is hosted on GitHub Pages and can be accessed at [https://knarlix.github.io/Universe/](https://knarlix.github.io/Universe/).
+This project is hosted on GitHub Pages and can be accessed at [https://knarlix.github.io/Universe/](https://knarlix.github.io/Universe/LICENSE).
 
 ## Table of Contents
 
