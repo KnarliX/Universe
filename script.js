@@ -57,6 +57,24 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     showAlert('Please enter a valid email address.', true);
     return;
   }
+  // phone number validation 
+  function validatePhoneNumber(input) {
+    // Sirf digits allow karna
+    input.value = input.value.replace(/[^0-9]/g, '');
+
+    // Check karna agar number '0' se shuru hota hai
+    if (input.value.startsWith('0')) {
+      // Agar '0' se shuru ho to maximum 11 digits allow karna
+      if (input.value.length > 11) {
+        input.value = input.value.slice(0, 11);
+      }
+    } else {
+      // Otherwise maximum 10 digits allow karna
+      if (input.value.length > 10) {
+        input.value = input.value.slice(0, 10);
+      }
+    }
+  }
 
   // Check reCAPTCHA response
   const recaptchaResponse = grecaptcha.getResponse();
