@@ -3,108 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Link Test</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            text-align: center;
+    <title>Open YouTube</title>
+    <script>
+        function openYouTube() {
+            // Step 1: Try opening YouTube app
+            window.location.href = "youtube://youtube.com/channel/UCn0U0vU1QfNUky7Dz7E_SMg";
+            
+            // Step 2: If app doesn't open, fallback to browser link
+            setTimeout(function() {
+                window.location.href = "https://youtube.com/channel/UCn0U0vU1QfNUky7Dz7E_SMg";
+            }, 1000); // Fallback after 1 second
         }
-        button {
-            margin: 10px;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            border: none;
-            border-radius: 5px;
-            background-color: #ff0000;
-            color: white;
-        }
-    </style>
+    </script>
 </head>
 <body>
-    <h1>Test Buttons to Open YouTube App</h1>
-    <p>Click each button below to see which one works best in Instagram's in-app browser.</p>
-
-    <!-- Button 1: Simple Deep Link -->
-    <button onclick="window.location.href='youtube://youtube.com/channel/UCn0U0vU1QfNUky7Dz7E_SMg';">
-        Open YouTube (Simple Deep Link)
+    <h1>Open YouTube</h1>
+    <p>Click the button below to open YouTube in the app or browser:</p>
+    <button onclick="openYouTube()" style="padding: 10px 20px; font-size: 16px; background-color: #ff0000; color: white; border: none; border-radius: 5px; cursor: pointer;">
+        Open YouTube App
     </button>
-
-    <!-- Button 2: Deep Link with Fallback -->
-    <button onclick="window.location.href='youtube://youtube.com/channel/UCn0U0vU1QfNUky7Dz7E_SMg'; setTimeout(function() { window.location.href='https://youtube.com/channel/UCn0U0vU1QfNUky7Dz7E_SMg'; }, 1500);">
-        Open YouTube (Deep Link with Fallback)
-    </button>
-
-    <!-- Button 3: Embedded Anchor Tag -->
-    <button onclick="document.getElementById('ytLink1').click();">
-        Open YouTube (Embedded Anchor)
-    </button>
-    <a id="ytLink1" href="youtube://youtube.com/channel/UCn0U0vU1QfNUky7Dz7E_SMg" style="display: none;">Hidden Link</a>
-
-    <!-- Button 4: JavaScript Trigger -->
-    <button onclick="openYouTubeApp();">
-        Open YouTube (JavaScript Trigger)
-    </button>
-    <script>
-        function openYouTubeApp() {
-            window.location.href = 'youtube://youtube.com/channel/UCn0U0vU1QfNUky7Dz7E_SMg';
-        }
-    </script>
-
-    <!-- Button 5: Form Submission -->
-    <form action="youtube://youtube.com/channel/UCn0U0vU1QfNUky7Dz7E_SMg">
-        <button type="submit">Open YouTube (Form Action)</button>
-    </form>
-
-    <!-- Button 6: iFrame Approach -->
-    <button onclick="openWithIframe();">
-        Open YouTube (iFrame Method)
-    </button>
-    <script>
-        function openWithIframe() {
-            var iframe = document.createElement('iframe');
-            iframe.style.display = 'none';
-            iframe.src = 'youtube://youtube.com/channel/UCn0U0vU1QfNUky7Dz7E_SMg';
-            document.body.appendChild(iframe);
-        }
-    </script>
-
-    <!-- Button 7: Target Blank -->
-    <button onclick="window.open('youtube://youtube.com/channel/UCn0U0vU1QfNUky7Dz7E_SMg', '_blank');">
-        Open YouTube (Target Blank)
-    </button>
-
-    <!-- Button 8: Meta Refresh Redirect -->
-    <button onclick="triggerMetaRedirect();">
-        Open YouTube (Meta Refresh)
-    </button>
-    <script>
-        function triggerMetaRedirect() {
-            document.getElementById('metaRefresh').click();
-        }
-    </script>
-    <a id="metaRefresh" href="youtube://youtube.com/channel/UCn0U0vU1QfNUky7Dz7E_SMg" style="display: none;">Hidden Meta Link</a>
-
-    <!-- Button 9: Manual Confirm -->
-    <button onclick="if(confirm('Do you want to open YouTube?')) { window.location.href='youtube://youtube.com/channel/UCn0U0vU1QfNUky7Dz7E_SMg'; }">
-        Open YouTube (Manual Confirm)
-    </button>
-
-    <!-- Button 10: Timeout Fallback -->
-    <button onclick="setTimeout(function() { window.location.href='youtube://youtube.com/channel/UCn0U0vU1QfNUky7Dz7E_SMg'; }, 100);">
-        Open YouTube (Timeout Only)
-    </button>
-
-    <!-- Button 11: Data Attribute -->
-    <button data-link="youtube://youtube.com/channel/UCn0U0vU1QfNUky7Dz7E_SMg" onclick="window.location.href=this.dataset.link;">
-        Open YouTube (Data Attribute)
-    </button>
-
-    <!-- Button 12: Hidden Link Trigger -->
-    <button onclick="document.getElementById('ytLink2').click();">
-        Open YouTube (Hidden Trigger)
-    </button>
-    <a id="ytLink2" href="youtube://youtube.com/channel/UCn0U0vU1QfNUky7Dz7E_SMg" style="display: none;">Hidden Link</a>
 </body>
 </html>
