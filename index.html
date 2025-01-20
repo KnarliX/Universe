@@ -3,81 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Knarlix Universe</title>
-    <link rel="icon" href="knarlix.ico" type="image/x-icon">
-    <meta name="description" content="Welcome to Knarlix Universe, your go-to place for...">
-    <meta name="keywords" content="Knarlix, Universe, ...">
-    <link rel="stylesheet" href="styles.css"> <!-- External CSS file -->
-    <script src="script.js" defer></script><!-- External JS file -->
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script> <!-- reCAPTCHA JS file -->
+    <title>Redirecting...</title>
+    <script>
+        // Redirect to YouTube App
+        setTimeout(function() {
+            // Try opening YouTube app
+            window.location = "youtube://youtube.com/channel/UCn0U0vU1QfNUky7Dz7E_SMg";
+        }, 100);
+
+        // Fallback to Browser if App fails
+        setTimeout(function() {
+            window.location = "https://youtube.com/channel/UCn0U0vU1QfNUky7Dz7E_SMg";
+        }, 1500);
+    </script>
 </head>
 <body>
-    <div class="container">
-        <div class="logo">
-            <img src="knarlix.png" alt="Knarlix Logo" loading="lazy" id="logo"> 
-        </div>
-        <div class="title">Knarlix Universe</div>
-        <div class="links">
-            <a href="#" onclick="window.location.href='youtube://youtube.com/channel/UCn0U0vU1QfNUky7Dz7E_SMg'; setTimeout(function() { window.location.href='https://youtube.com/channel/UCn0U0vU1QfNUky7Dz7E_SMg'; }, 1000);" aria-label="Visit our YouTube channel" title="YouTube Channel" rel="noopener noreferrer">
-                <i class="fab fa-youtube"></i> YouTube
-            </a>
-            <a href="https://www.instagram.com/knarlix" target="_blank" aria-label="Visit our Instagram ID" title="Instagram" rel="noopener noreferrer">
-                <i class="fab fa-instagram"></i> Instagram
-            </a>
-            <a href="#coming-soon" onclick="openModal()" aria-label="Visit our Twitter Handel" title="Twitter">
-                <i class="fab fa-twitter"></i> Twitter
-            </a>
-            <a href="https://discord.com/users/1212719184870383621" target="_blank" aria-label="Visit our Discord ID" title="Discord ID" rel="noopener noreferrer">
-                <i class="fab fa-discord"></i> Discord ID
-            </a>
-            <a href="#coming-soon" onclick="openModal()" aria-label="join our Discord Server" title="Discord Server">
-                <i class="fab fa-discord"></i> Discord Server
-            </a>
-            <a href="#contact-form" onclick="openForm()" aria-label="Contact Us" title="Contact Us">
-                <i class="fas fa-envelope"></i> Contact Us
-            </a>
-        </div>
-        <footer>
-            © <span id="year"></span> Knarlix. All rights reserved.
-            <br>
-            Email us at <a href="mailto:KnarliX@outlook.com" target="_blank" rel="noopener noreferrer">KnarliX@outlook.com</a>
-        </footer>
-    </div>
-
-    <!-- Coming Soon Modal -->
-    <div id="coming-soon">
-        <div class="modal-content">
-            <h2>Coming Soon</h2>
-            <p>This feature is under development. Stay tuned!</p>
-            <button class="back-btn" onclick="closeModal()"> Close</button>
-        </div>
-    </div>
-
-    <!-- Custom Alert Box -->
-    <div id="custom-alert" class="custom-alert">
-        <div class="alert-content">
-            <span id="alert-message"></span>
-            <div id="loading" class="loading" style="display: none;">Submitting...</div> 
-            <button class="close-alert" onclick="closeAlert()">Close</button>
-        </div>
-    </div>
- 
-    <!-- Contact Form -->
-    <div id="contact-form">
-        <div class="form-content" action="" method="POST">
-            <h3>Contact Us</h3>
-            <form id="contactForm">
-                <input type="text" id="name" placeholder="Name (required)" required>
-                <input type="text" id="discordId" placeholder="Discord ID (optional)">
-                <input type="email" id="email" placeholder="Email (optional)">
-                <input type="tel" id="phone" placeholder="Phone (optional)" oninput="validatePhoneNumber(this)">
-                <input type="text" id="subject" placeholder="Subject (required)" required>
-                <textarea id="message" placeholder="Your message" required></textarea>
-                <div class="g-recaptcha" data-sitekey="6LfeK6gqAAAAANmMn1xMOGyU64B8k_jH6vU9mvSm"></div> 
-                <button type="submit">Submit</button>
-                <button type="button" onclick="closeForm()">Cancel</button>
-            </form>
-        </div>
-    </div>
+    <p>Redirecting to YouTube...</p>
 </body>
 </html>
