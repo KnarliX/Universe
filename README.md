@@ -1,17 +1,17 @@
-# Knarlix Universe
+# KnarliX's Social-Links
 
-Welcome to **Knarlix Universe** – the central hub for all our social media links, updates, and contact information. This page is your one-stop destination to connect with us across various platforms and stay updated with our latest news, projects, and announcements.
+Welcome to **KnarliX's Social-Links** – the central hub for all our social media links, updates, and contact information. This page is your one-stop destination to connect with us across various platforms and stay updated with our latest news, projects, and announcements.
 
 You can find all our social media profiles and contact details below.
 
-This project is hosted on GitHub Pages and can be accessed at [https://knarlix.github.io/Universe](https://knarlix.github.io/Universe/).
+This project is hosted on GitHub Pages and can be accessed at [https://knarlix.github.io/Social-Links](https://knarlix.github.io/Social-Links/).
 
 ## Table of Contents
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [License](https://knarlix.github.io/Universe/LICENSE)
+- [License](https://knarlix.github.io/Social-Links/LICENSE)
 - [Contact](#contact)
 
 ## Features
@@ -35,11 +35,11 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/knarlix/Universe.git
+   git clone https://github.com/KnarliX/Social-Links.git
 
 ## Contact
 
-- Email: [KnarliX@outlook.com](mailto:KnarliX@outlook.com)
+- Email: [KnarliX@jarvibeta.xyz](mailto:KnarliX@jarvibeta.xyz)
 - Discord ID: [KnarliX](https://discord.com/users/1212719184870383621)
 
 #### Socials:
